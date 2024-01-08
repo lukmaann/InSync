@@ -1,0 +1,33 @@
+.inputFeilds{
+    @apply block p-2 px-3 m-2 focus:outline-none rounded-lg bg-[#E9EFF6] w-[90%] border-b-4
+}
+
+.inputFeilds:focus{
+    @apply border-none
+}
+
+.componentContainer{
+    @apply w-full flex flex-col items-center justify-center relative
+}
+
+.componentContainer form{
+    @apply flex flex-col justify-center items-center 
+}
+
+.joinBtn{
+    transition: all ease-in-out 0.3s;
+    @apply m-2 p-2 w-[90%] rounded-lg hover:bg-blue-400 text-white shadow-xl shadow-blue-200 hover:text-blue-200
+}
+
+.componentContainer h2{
+    @apply m-2 p-2 text-gray-500 text-sm
+}
+
+.componentContainer h2  span{
+    @apply text-blue-700 hover:cursor-pointer hover:text-blue-500 font-bold
+}
+
+
+.logo{
+    @apply w-[150px] m-2 p-3 
+}

@@ -1,0 +1,19 @@
+.pageContainer{
+    @apply h-screen bg-[#F5F5F5] flex flex-col items-center justify-center
+}
+.formWrapper{
+    @apply w-[400px] p-2 flex flex-col items-center
+}
+
+.main{
+    @apply flex h-[90%] justify-around items-center w-[80%]
+}
+
+
+.slogan{
+    @apply text-xl capitalize w-[60%]
+}
+
+.homeImg{
+    @apply w-[50%]
+}
