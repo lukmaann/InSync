@@ -18,7 +18,7 @@ const RoomIdForm = () => {
     })
   return (
     <div className={css.componentContainer}>
-    <img src={logo} alt=""  className={css.logo}/>
+    <h1 className={css.logoText}>InSync</h1>
       <form action="" onSubmit={formik.handleSubmit}>
         <input type="text" placeholder="RoomId" className={css.inputFeilds}  {...formik.getFieldProps("roomid")}/>
         <input type="text" placeholder="Name" className={css.inputFeilds}  {...formik.getFieldProps("name")}/>

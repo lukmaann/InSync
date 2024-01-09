@@ -31,3 +31,7 @@
 .logo{
     @apply w-[150px] m-2 p-3 
 }
+
+.logoText{
+    @apply m-2 p-2 px-4 text-2xl w-[60%] font-bold bg-gradient-to-r from-blue-600 via-blue-500 drop-shadow-md shadow-black inline-block to-blue-500 text-transparent bg-clip-text
+}
